@@ -1,4 +1,4 @@
-# 🚀 Perfect Portfolio Site using Bolt.new AI 🔥
+# 🚀 Portfolio Site 🔥
 
 Welcome to my dynamic developer portfolio — built using **Bolt.new AI** and enhanced with **Framer Motion**, **React**, and cutting-edge design principles.
 
