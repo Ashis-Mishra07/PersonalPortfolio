@@ -2,7 +2,7 @@ import { ProjectItem } from "../types";
 
 export const projectsData: ProjectItem[] = [
   {
-    title: "AI Course Navigator",
+    title: "Course Navigator",
     description: "An intelligent platform that generates personalized tech learning paths.",
     image: "aicourse.png",
     tech: ["Next.js", "React", "Vapi", "GeminiAI", "ShadCN"],
@@ -21,65 +21,7 @@ export const projectsData: ProjectItem[] = [
     },
   },
   {
-    title: "AI Interview Agent",
-    description: "A real-time voice-based AI interviewer for mock tech interviews.",
-    image: "interview.png",
-    tech: ["Next.js", "Vapi", "OpenAI", "WebRTC", "Tailwind CSS"],
-    github: "https://github.com/Ashis-Mishra07/interview_2",
-    live: "https://interview-2-7b3h.vercel.app",
-    details: {
-      problem: "Aspiring developers lack personalized, real-time interview practice.",
-      solution: "Developed an AI agent that simulates interview scenarios and provides structured feedback.",
-      features: [
-        "Real-time voice interaction",
-        "Role-specific question sets",
-        "Feedback and scoring system",
-        "OpenAI-powered assessment",
-      ],
-      impact: "Enhanced preparation for technical interviews across multiple domains.",
-    },
-  },
-  {
-    title: "AI PDF Analyzer",
-    description: "A tool to analyze, summarize, and interact with PDFs using natural language.",
-    image: "pdf.png",
-    tech: ["Next.js", "React", "GeminiAI", "Tailwind", "Clerk"],
-    github: "https://github.com/Ashis-Mishra07/AiPDF-Maker",
-    live: "https://ai-pdf-maker.vercel.app/",
-    details: {
-      problem: "Manually parsing and understanding large PDFs is time-consuming.",
-      solution: "Created an app to query and summarize any uploaded PDF using AI.",
-      features: [
-        "Ask questions from PDFs",
-        "PDF summarization",
-        "Note generation",
-        "Clean UI for document preview",
-      ],
-      impact: "Saved hours for researchers, students, and legal professionals.",
-    },
-  },
-  {
-    title: "AI Email SaaS App",
-    description: "A full-stack platform to manage, automate, and personalize email interactions.",
-    image: "email.png",
-    tech: ["React", "Node.js", "Express", "MongoDB", "OpenAI"],
-    github: "https://github.com/rajanikant04/hackfest",
-    live: "https://go-flow-mu.vercel.app/",
-    details: {
-      problem: "Startups and individuals struggle with efficient email communication and automation.",
-      solution: "Built an Email SaaS with AI-powered drafting, scheduling, and categorization.",
-      features: [
-        "Smart email composition",
-        "Auto-tagging and categorization",
-        "Draft polishing with OpenAI",
-        "Custom SMTP integration",
-        "Auto Fetching and follow up Question Answering "
-      ],
-      impact: "Top 5 finalist at ISM Dhanbad Hackathon out of 80 teams.",
-    },
-  },
-  {
-    title: "Python Medical Diagnosis",
+    title: "Medical Diagnosis",
     description: "A deep learning project for diagnosing diseases from medical inputs.",
     image: "diagnose.png",
     tech: ["Python", "Scikit-learn", "Streamlit","HuggingFace", "TensorFlow" , "Keras", "XgBoostClassfier"],
@@ -98,7 +40,7 @@ export const projectsData: ProjectItem[] = [
     },
   },
   {
-    title: "Python Medical Assistant Chatbot",
+    title: "Medical Assistant Chatbot",
     description: "An AI-powered chatbot for answering basic medical queries.",
     image: "chatbot.png",
     tech: ["Python", "OpenAI", "Gradio", "SpeechRecognition", "ElevenLabs" ,"StT and TtS"],
@@ -115,5 +57,65 @@ export const projectsData: ProjectItem[] = [
       ],
       impact: "Increased accessibility to health information in underserved communities.",
     },
-  }
+  },
+  {
+    title: "Interview Agent",
+    description: "A real-time voice-based AI interviewer for mock tech interviews.",
+    image: "interview.png",
+    tech: ["Next.js", "Vapi", "OpenAI", "WebRTC", "Tailwind CSS"],
+    github: "https://github.com/Ashis-Mishra07/interview_2",
+    live: "https://interview-2-7b3h.vercel.app",
+    details: {
+      problem: "Aspiring developers lack personalized, real-time interview practice.",
+      solution: "Developed an AI agent that simulates interview scenarios and provides structured feedback.",
+      features: [
+        "Real-time voice interaction",
+        "Role-specific question sets",
+        "Feedback and scoring system",
+        "OpenAI-powered assessment",
+      ],
+      impact: "Enhanced preparation for technical interviews across multiple domains.",
+    },
+  },
+  
+  {
+    title: "PDF Analyzer",
+    description: "A tool to analyze, summarize, and interact with PDFs using natural language.",
+    image: "pdf.png",
+    tech: ["Next.js", "React", "GeminiAI", "Tailwind", "Clerk"],
+    github: "https://github.com/Ashis-Mishra07/AiPDF-Maker",
+    live: "https://ai-pdf-maker.vercel.app/",
+    details: {
+      problem: "Manually parsing and understanding large PDFs is time-consuming.",
+      solution: "Created an app to query and summarize any uploaded PDF using AI.",
+      features: [
+        "Ask questions from PDFs",
+        "PDF summarization",
+        "Note generation",
+        "Clean UI for document preview",
+      ],
+      impact: "Saved hours for researchers, students, and legal professionals.",
+    },
+  },
+  {
+    title: "Email SaaS App",
+    description: "A full-stack platform to manage, automate, and personalize email interactions.",
+    image: "email.png",
+    tech: ["React", "Node.js", "Express", "MongoDB", "OpenAI"],
+    github: "https://github.com/rajanikant04/hackfest",
+    live: "https://go-flow-mu.vercel.app/",
+    details: {
+      problem: "Startups and individuals struggle with efficient email communication and automation.",
+      solution: "Built an Email SaaS with AI-powered drafting, scheduling, and categorization.",
+      features: [
+        "Smart email composition",
+        "Auto-tagging and categorization",
+        "Draft polishing with OpenAI",
+        "Custom SMTP integration",
+        "Auto Fetching and follow up Question Answering "
+      ],
+      impact: "Top 5 finalist at ISM Dhanbad Hackathon out of 80 teams.",
+    },
+  },
+  
 ];

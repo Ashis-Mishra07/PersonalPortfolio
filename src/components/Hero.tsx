@@ -1,4 +1,4 @@
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, Download } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { gradientText, gradientBg, gradientHover } from '../utils/gradients';
 import { fadeInUp, staggerContainer } from '../utils/animations';
@@ -53,12 +53,12 @@ export default function Hero() {
             <motion.span
               className="block text-white opacity-90"
               variants={fadeInUp}>
-              Building the Future
+              Empowering Minds Through Code
             </motion.span>
             <motion.span
               className={`block ${gradientText}`}
               variants={fadeInUp}>
-              One Line of Code
+              One Algorithm
             </motion.span>
             <motion.span
               className="block text-white opacity-90"
@@ -82,6 +82,14 @@ export default function Hero() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}>
               View My Work
+            </motion.a>
+            <motion.a
+              href="/assets/documents/resume.pdf"
+              download
+              className="px-8 py-3 rounded-full text-white border-2 border-white/20 hover:bg-white/10 transition-all duration-300 flex items-center gap-2"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}>
+              <Download className="w-4 h-4" /> Resume
             </motion.a>
             <motion.a
               href="#contact"

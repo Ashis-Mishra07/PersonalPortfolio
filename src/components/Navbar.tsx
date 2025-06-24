@@ -25,6 +25,11 @@ export default function Navbar() {
               Skills
             </a>
             <a
+              href="#timeline"
+              className="text-gray-700 hover:text-gray-900 transition-colors">
+              Experience
+            </a>
+            <a
               href="#projects"
               className="text-gray-700 hover:text-gray-900 transition-colors">
               Projects
