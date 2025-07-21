@@ -2,6 +2,28 @@ import { ProjectItem } from "../types";
 
 export const projectsData: ProjectItem[] = [
   {
+    "title": "Quantum-Classical Hybrid Network Simulator",
+  "description": "A comprehensive simulation platform for quantum internet infrastructure research and analysis.",
+  "image": "quantum_network.png",
+  "tech": ["Python", "Streamlit", "NetworkX", "NumPy", "Plotly", "Pandas", "Matplotlib"],
+  "github": "https://github.com/Ashis-Mishra07/Cisco",
+  "live": "https://codewithcisco.streamlit.app/",
+  "details": {
+    "problem": "Quantum networking research lacks practical simulation tools that model real-world physics constraints and hybrid architectures.",
+    "solution": "Developed a complete quantum-classical network simulator with realistic decoherence modeling, intelligent routing protocols, and comprehensive security analysis.",
+    "features": [
+      "Hybrid network topology with 40% quantum nodes",
+      "Advanced Dijkstra routing with quantum preference",
+      "Quantum physics modeling (decoherence, no-cloning, entanglement)",
+      "Interactive 6-tab Streamlit dashboard",
+      "Post-quantum cryptography comparison (5 methods)",
+      "Performance analysis across 10-100 node networks",
+      "Quantum repeater optimization achieving 92.3% improvement"
+    ],
+    "impact": "Provides researchers and engineers with a practical framework for evaluating quantum internet infrastructure requirements and identifying scalability bottlenecks."
+  }
+  },
+  {
     title: "Course Navigator",
     description: "An intelligent platform that generates personalized tech learning paths.",
     image: "aicourse.png",
