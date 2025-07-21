@@ -34,7 +34,7 @@ export default function About() {
             <motion.p className="text-lg text-gray-600" variants={fadeInUp}>
               Hi, I'm Ashis Kumar Mishra — a dedicated Full Stack Developer, AI
               enthusiast, and competitive programmer. With a strong foundation
-              in technologies like React, Node.js, Python, and AI integrations,
+              in technologies like React, Node.js, Python, AI integrations, and Quantum Networks
               I build intelligent, user-centric platforms that make a real-world
               impact.
             </motion.p>

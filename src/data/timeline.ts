@@ -42,5 +42,12 @@ export const timelineData: TimelineItem[] = [
     company: 'NIT Rourkela',
     description: 'Research intern under faculty supervision, working on medical diagnosis using ML/DL and GenAI techniques',
     icon: 'work'
-  }
+  },
+  {
+    year: '2025 - Present',
+    title: 'Hackathon Finalist – Cisco',
+    company: 'Cisco - Code with Hackathon',
+    description: 'Independent research project developing quantum-classical hybrid network simulation to analyze quantum internet infrastructure scalability and security protocols',
+    icon: 'work'
+  },
 ];
